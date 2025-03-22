@@ -18,17 +18,19 @@ An intelligent web scraping solution that combines the power of AI with web scra
 
 ### Web Interface
 
-![Web Interface](./images/web_interface.png)
+![Web Interface](https://github.com/AkshaySingh2005/AI_Web_Scrapper/blob/main/Screenshot%202025-03-22%20131045.png)
+
 _The user-friendly interface where you can input any website URL and describe what data you want to extract_
 
 ### Scraping Process
 
-![Scraping Process](./images/scraping_process.png)
-_Terminal output showing the intelligent scraping process with automatic CAPTCHA detection and handling_
+![Scraping Process](https://github.com/AkshaySingh2005/AI_Web_Scrapper/blob/main/Screenshot%202025-03-22%20123933.png)
+
+_Terminal output showing the  scraping process with automatic CAPTCHA detection and handling_
 
 ### Sample Output
 
-![Sample Output](https://github.com/AkshaySingh2005/AI_Web_Scrapper/blob/main/Screenshot%202025-03-22%20123741.png)
+<img src="https://github.com/AkshaySingh2005/AI_Web_Scrapper/blob/main/Screenshot%202025-03-22%20123741.png" height="500" alt="Sample Output">
 
 _Example of structured data output - Property information organized in a clean, readable table format_
 
@@ -46,7 +48,7 @@ Before running this project, make sure you have the following installed:
 
 - Python 3.8 or higher
 - Chrome browser
-- Git
+- ollama
 
 ### Installing Ollama
 
@@ -110,7 +112,7 @@ ollama pull mistral
 1. Make sure Ollama is running in the background
 2. Run the main script:
    ```bash
-   python main.py
+   streamlit run main.py
    ```
 
 ## 🔧 Project Structure
@@ -141,5 +143,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 🙏 Acknowledgments
 
 - Ollama for providing the AI capabilities
+- Bright Data
 - Selenium for web automation
 - Beautiful Soup for HTML parsing
