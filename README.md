@@ -28,7 +28,8 @@ _Terminal output showing the intelligent scraping process with automatic CAPTCHA
 
 ### Sample Output
 
-![Sample Output](./images/sample_output.png)
+![Sample Output](https://github.com/AkshaySingh2005/AI_Web_Scrapper/blob/main/Screenshot%202025-03-22%20123741.png)
+
 _Example of structured data output - Property information organized in a clean, readable table format_
 
 The scraper intelligently processes websites and generates structured table outputs, making it easy to analyze and process the scraped data. As shown in the example above, it can handle complex data like property listings, including details such as:
